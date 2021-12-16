@@ -30,7 +30,10 @@
     <link rel="stylesheet" href="assets/css/login.css">
 
   </head>
-  <body>
+  <body style="background-color:#eee;">
+	<script src = "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+	<script src = "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+	<script src = "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
       
     <div class="top-header-area" id="sticker">
 		<div class="container">
@@ -97,21 +100,21 @@
     </div>
     <!--End of header-->
     <div class ="center-login">
-        <div class="container">
+        <div class="container" >
             <div class="wrapper">
               <div class="title"><span>Login Form</span></div>
               <form action="#">
                 <div class="row">
                   <i class="fas fa-user"></i>
-                  <input type="text" placeholder="Email or Phone" required>
+                  <input type="text" id="email"placeholder="Email or Phone" required>
                 </div>
                 <div class="row">
                   <i class="fas fa-lock"></i>
-                  <input type="password" placeholder="Password" required>
+                  <input type="password" id="password" placeholder="Password" required>
                 </div>
                 <div class="pass"><a href="#">Forgot password?</a></div>
                 <div class="row button">
-                  <input type="submit" value="Login">
+                  <button onclick="register()">Register</button>
                 </div>
                 <div class="signup-link">Not a Account? <a href="#">Create an Account</a></div>
               </form>
@@ -189,5 +192,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
+
+
   </body>
 </html>
