@@ -82,16 +82,6 @@
 								<li class="current-list-item"><a href="index.html">Home</a>
 								</li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-									</ul>
-								</li>
 								<li><a href="news.html">News</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
@@ -99,7 +89,7 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="contact.html">Resources</a></li>
+								<li><a href="index.php">Resources</a></li>
 								<li><a href="map.html">Map</a>
 								</li>
 								<li>
@@ -178,7 +168,7 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>A harmonized GIS – based platform for the agriculture and aquaculture industry in collaboration with selected SUCs in the Philippines.</p>
+						<p>A harmonized GIS – based platform for the agriculture industry in collaboration with selected students from BSIT in the Batangas State University (Alangilan).</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -197,9 +187,9 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Shop</a></li>
 							<li><a href="news.html">News</a></li>
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="index.php">Resources</a></li>
 						</ul>
 					</div>
 				</div>
@@ -207,9 +197,8 @@
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Create Account</h2>
 						<p>Create Account to Download the Resources.</p>
-						<form action="index.html">
-							<input type="email" placeholder="Email">
-							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						<form action="register.php">
+							<button type="submit"> Create account </button>
 						</form>
 					</div>
 				</div>

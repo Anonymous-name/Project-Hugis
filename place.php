@@ -7,7 +7,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>About</title>
+	<title>Places</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/icon-logo.PNG">
@@ -114,13 +114,15 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<h1>About Us</h1>
+						<h1>Places</h1>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end breadcrumb section -->
+
+
 
 	<!-- featured section -->
 	<div class="feature-bg">
@@ -183,213 +185,20 @@
 		</div>
 	</div>
 	<!-- end featured section -->
-
-	<!-- end product section -->
-		<!-- shop banner -->
-		<section class="shop-banner">
-			<div class="container">
-				<h3><span>H</span>armonized &</h3>
-				<h3><span>U</span>nified<span> GIS</span></h3> 
-				<h3> Industry Producivity</h3>
-	
-			</div>
-		</section>
-	<!-- end shop banner -->
-
-	<!-- team section -->
-	<div class="mt-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-title">
-						<h3>Our <span class="orange-text">Team</span></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-team-item">
-						<div class="team-bg team-bg-1"></div>
-						<h4>Daniel Mame <span>Developer</span></h4>
-						<ul class="social-link-team">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-team-item">
-						<div class="team-bg team-bg-2"></div>
-						<h4>Zoilo Silang <span>Developer</span></h4>
-						<ul class="social-link-team">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-					<div class="single-team-item">
-						<div class="team-bg team-bg-3"></div>
-						<h4>Lennoyd Fonte <span>Developer</span></h4>
-						<ul class="social-link-team">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end team section -->
-
-	<!-- testimonail-section -->
-	<div class="testimonail-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10 offset-lg-1 text-center">
-					<div class="testimonial-sliders">
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar1.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Janice F. Peralta<span>ECE / Project Leader</span></h3>
-								<p class="testimonial-body">
-									" A harmonized GIS – based platform for the agriculture and aquaculture industry in collaboration with selected SUCs in the Philippines. "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar2.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Antonette V. Chua <span>ECE, Project Staff</span></h3>
-								<p class="testimonial-body">
-									" A harmonized GIS – based platform for the agriculture and aquaculture industry in collaboration with selected SUCs in the Philippines."
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar3.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Jen Aldwayne Delmo <span>CpE / Project Staff</span></h3>
-								<p class="testimonial-body">
-									" A harmonized GIS – based platform for the agriculture and aquaculture industry in collaboration with selected SUCs in the Philippines. "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/avaters/avatar2.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Dr. Alvin Alon<span>CpE / Project Staff</span></h3>
-								<p class="testimonial-body">
-									" A harmonized GIS – based platform for the agriculture and aquaculture industry in collaboration with selected SUCs in the Philippines. "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end testimonail-section -->
-
-	<!-- logo carousel -->
-	<div class="logo-carousel-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="logo-carousel-inner">
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/lspu.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/ilspu.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/rsu.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/MinSu.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/CenMinSu.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/tsu.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/cav-Su.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end logo carousel -->
+        <!--Dito na yung header menu-->
+    <!--Dito na yung header menu-->
+    <div class="class">
+    <div class="container">
+        <div class="map-header-menu" style="background-color: #4CAF50"></div>
+    </div>
+    
+    </div>
 
 	<!-- footer -->
 	<div class="footer-area">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box about-widget">
-						<h2 class="widget-title">About us</h2>
-						<p>A harmonized GIS – based platform for the agriculture and aquaculture industry in collaboration with selected SUCs in the Philippines.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box get-in-touch">
-						<h2 class="widget-title">Contact Us</h2>
-						<ul>
-							<li>700-800</li>
-							<li>bsu@g.batstate-u.edu.ph</li>
-							<li>+63 939 595 8160</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box pages">
-						<h2 class="widget-title">Pages</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="news.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="index.php">Resources</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box subscribe">
-						<h2 class="widget-title">Create Account</h2>
-						<p>Create Account to Download the Resources.</p>
-						<form action="register.php">
-							<button type="submit"> Create account </button>
-						</form>
-					</div>
-				</div>
+
 
 			</div>
 		</div>

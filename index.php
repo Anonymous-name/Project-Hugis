@@ -1,7 +1,7 @@
 <?php
     session_start();
     if (isset($_SESSION["SESSION_EMAIL"])) {
-        header("Location: welcome.php");
+        header("Location: resources.php");
     }
 
     if (isset($_POST["login"])) {
@@ -19,7 +19,7 @@
 
             if ($row['email'] && $row['password'] ) {
                 $_SESSION["SESSION_EMAIL"] = $email;
-                header("Location: welcome.php");
+                header("Location: resources.php");
             }else {
                 echo "<script>alert('Your Login details is incorrect.');</script>";
             }
@@ -99,7 +99,8 @@
 								<li><a href="map.html">Map</a>
 								</li>
 								<li>
-									<div class="header-icons">		
+									<div class="header-icons">	
+											
 										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
 									</div>
 								</li>

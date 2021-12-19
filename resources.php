@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if (!isset($_SESSION["SESSION_EMAIL"])) {
+        header("Location: index.php");
+    }
+    include 'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,7 +82,16 @@
 								</li>
 								<li>
 									<div class="header-icons">		
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+									<?php
+            $sql = "SELECT * FROM users WHERE email='{$_SESSION["SESSION_EMAIL"]}'";
+            $result = mysqli_query($conn, $sql);
+
+            if (mysqli_num_rows($result) > 0) {
+                $row = mysqli_fetch_assoc($result);
+        ?>
+        <a href="logout.php">Logout</a>
+        <?php } ?>
+										
 									</div>
 								</li>
 							</ul>
@@ -223,9 +239,9 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Shop</a></li>
 							<li><a href="news.html">News</a></li>
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="index.php">Resources</a></li>
 						</ul>
 					</div>
 				</div>
