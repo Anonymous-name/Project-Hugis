@@ -69,12 +69,15 @@
 							<ul>
 								<li class="current-list-item"><a href="index.html">Home</a>
 								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
+								<li><a href="about.html">About</a>
+								<ul class="sub-menu">
+										<li><a href="#">Proponents</a></li>
+										<li><a href="#">Overview</a></li>
+										<li><a href="#">Objectives</a></li>
+
 									</ul>
+								</li>
+								<li><a href="news.html">News</a>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="index.php">Resources</a></li>

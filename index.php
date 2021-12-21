@@ -77,15 +77,18 @@
 							<ul>
 								<li class="current-list-item"><a href="index.html">Home</a>
 								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
+								<li><a href="about.html">About</a>
+								<ul class="sub-menu">
+										<li><a href="#">Proponents</a></li>
+										<li><a href="#">Overview</a></li>
+										<li><a href="#">Objectives</a></li>
+
 									</ul>
 								</li>
+								<li><a href="news.html">News</a>
+								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="contact.html">Resources</a></li>
+								<li><a href="index.php">Resources</a></li>
 								<li><a href="map.html">Map</a>
 								</li>
 								<li>
@@ -124,7 +127,7 @@
                 </div>
                         <div class="pass"><a href="#">Forgot password?</a></div>
                              <button class="btn" name="login">Login</button>
-                            <p>Create Account! <a href="register.php">Register</a>.</p>
+                            <p style= "font-size:14px; font-weight: 900; font-family:Open sans;"  >Create Account! <a href="register.php">Register</a>.</p>
             
             
                         </form>
@@ -176,8 +179,7 @@
 						<h2 class="widget-title">Create Account</h2>
 						<p>Create Account to Download the Resources.</p>
 						<form action="index.html">
-							<input type="email" placeholder="Email">
-							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+							<button type="submit"> create account</i></button>
 						</form>
 					</div>
 				</div>
