@@ -22,7 +22,7 @@
                 $result = mysqli_query($conn, $sql);
 
                 if ($result) {
-                    header("Location: index.php");
+                    header("Location: index11.php");
                 }else {
                     echo "<script>Error: ".$sql.mysqli_error($conn)."</script>";
                 }
