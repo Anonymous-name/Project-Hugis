@@ -77,7 +77,7 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="index.php">Resources</a></li>
+								<li><a href="resources.html">Resources</a></li>
 								<li><a href="map.html">Map</a>
 								</li>
 								<li>
@@ -225,7 +225,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
-						<h2 class="widget-title">Get in Touch</h2>
+						<h2 class="widget-title">Contact Us</h2>
 						<ul>
 							<li>700-800</li>
 							<li>bsu@g.batstate-u.edu.ph</li>
