@@ -790,6 +790,7 @@ a.mobile-show {
   display: inline-block;
   border-radius: 50px;
   font-weight: 700;
+  
 }
 
 .search-bar-tablecell input::-webkit-input-placeholder {
@@ -2774,4 +2775,9 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+.pass p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
